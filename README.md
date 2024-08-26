@@ -6,5 +6,6 @@ FOR INSTALL APP:
 2. ### `cd /hw-test-task`
 3. ### `npm install`
 5. ### `npm run start`
-YOU SHOULD RUN JSON-SERVER WITH PORT, OPEN NEW TERMINAL AND PASTE THIS:
+YOU SHOULD RUN JSON-SERVER WITH PORT 5000,
+OPEN NEW TERMINAL AND PASTE THIS:
 6. ### `npx json-server db.json --port 5000`
