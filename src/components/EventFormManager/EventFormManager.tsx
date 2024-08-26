@@ -103,12 +103,14 @@ const EventFormManager: React.FC<EventFormManagerProps> = ({ id }) => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    const id = generateRandomId();
     if (isEditMode) {
       await putEvent(formData);
     } else {
-      await postEvent({ ...formData, id: generateRandomId() });
+      await postEvent({ ...formData, id });
     }
-    navigate(isEditMode ? `/event/${id}` : "/");
+    const urlNavigate = isEditMode ? `/event/${formData.id}` : `/event/${id}`;
+    navigate(urlNavigate);
   };
 
   if (error) return <Error text={error} />;
