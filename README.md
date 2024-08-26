@@ -1,5 +1,5 @@
-### `Filter by date`,
-### `Sort by name, date. (asc, desc) (can be sort by any key-value)`
+SERVER FILTER BY DATE
+SERVER SORT BY NAME, DATE. (asc, desc) (can be sort by any key-value)
 
 FOR INSTALL APP: 
 1. ### `git clone https://github.com/mirekmirik/hw-test-task.git`
