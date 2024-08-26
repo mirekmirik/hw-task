@@ -1,0 +1,17 @@
+@import "./assets/styles/index.scss";
+
+body {
+  font-family: var(--main-font);
+  color: var(--color-black);
+  background-color: var(--color-violet);
+  max-width: var(--container-width-dekstop);
+  margin: 0 auto;
+}
+
+a {
+  color: var(--color-white);
+  text-decoration: none;
+  &:hover {
+    color: var(--color-red);
+  }
+}

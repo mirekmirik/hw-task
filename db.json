@@ -1,0 +1,194 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "name": "Summer Music Festival",
+      "time": "14:00",
+      "date": "2024-08-30",
+      "tickets": [
+        {
+          "type": "General",
+          "quantity": 500,
+          "price": 50
+        },
+        {
+          "type": "VIP",
+          "quantity": 100,
+          "price": 150
+        }
+      ],
+      "description": "A day-long music festival featuring top artists from around the world."
+    },
+    {
+      "id": "2",
+      "name": "Tech Conference 2024",
+      "time": "09:00",
+      "date": "2024-08-30",
+      "tickets": [
+        {
+          "type": "Early Bird",
+          "quantity": 200,
+          "price": 100
+        },
+        {
+          "type": "Regular",
+          "quantity": 300,
+          "price": 150
+        }
+      ],
+      "description": "Annual conference showcasing the latest in technology and innovation."
+    },
+    {
+      "id": "3",
+      "name": "Food and Wine Expo",
+      "time": "11:00",
+      "date": "2024-08-30",
+      "tickets": [
+        {
+          "type": "Standard",
+          "quantity": 1000,
+          "price": 30
+        },
+        {
+          "type": "Tasting Pass",
+          "quantity": 500,
+          "price": 80
+        }
+      ],
+      "description": "Explore culinary delights and fine wines from around the globe."
+    },
+    {
+      "id": "4",
+      "name": "Marathon for Charity",
+      "time": "07:00",
+      "date": "2024-08-30",
+      "tickets": [
+        {
+          "type": "Runner",
+          "quantity": 2000,
+          "price": 40
+        },
+        {
+          "type": "Supporter",
+          "quantity": 1000,
+          "price": 15
+        }
+      ],
+      "description": "Annual marathon raising funds for local charities. Run or cheer!"
+    },
+    {
+      "id": "5",
+      "name": "Art Gallery Opening",
+      "time": "18:00",
+      "date": "2024-09-01",
+      "tickets": [
+        {
+          "type": "General Admission",
+          "quantity": 300,
+          "price": 25
+        },
+        {
+          "type": "Guided Tour",
+          "quantity": 50,
+          "price": 60
+        }
+      ],
+      "description": "Opening night of our new modern art exhibition featuring local artists."
+    },
+    {
+      "id": "6",
+      "name": "Science Fair",
+      "time": "10:00",
+      "date": "2024-08-28",
+      "tickets": [
+        {
+          "type": "Student331d",
+          "quantity": 50033,
+          "price": 10
+        },
+        {
+          "type": "Adult33",
+          "quantity": 300323,
+          "price": 20323
+        }
+      ],
+      "description": "Annual science fair showcasing projects from K-12 students."
+    },
+    {
+      "id": "7",
+      "name": "Comedy Night",
+      "time": "20:00",
+      "date": "2024-08-29",
+      "tickets": [
+        {
+          "type": "Standard Seating",
+          "quantity": 200,
+          "price": 35
+        },
+        {
+          "type": "Premium Seating",
+          "quantity": 50,
+          "price": 55
+        }
+      ],
+      "description": "A night of laughter with top comedians from across the country."
+    },
+    {
+      "id": "8",
+      "name": "Business Leadership Summit",
+      "time": "08:30",
+      "date": "2024-11-07",
+      "tickets": [
+        {
+          "type": "Professional",
+          "quantity": 300,
+          "price": 200
+        },
+        {
+          "type": "Executive",
+          "quantity": 100,
+          "price": 350
+        }
+      ],
+      "description": "Learn from industry leaders and network with professionals."
+    },
+    {
+      "id": "10",
+      "name": "Film Festival",
+      "time": "13:00",
+      "date": "2024-09-05",
+      "tickets": [
+        {
+          "type": "Single Screening",
+          "quantity": 300,
+          "price": 12
+        },
+        {
+          "type": "Festival Pass",
+          "quantity": 100,
+          "price": 80
+        }
+      ],
+      "description": "A week-long celebration of independent cinema from around the world."
+    },
+    {
+      "id": "12",
+      "name": "New Year's Eve Gala",
+      "time": "20:00",
+      "date": "2024-12-31",
+      "tickets": [
+        {
+          "type": "Standard",
+          "quantity": 400,
+          "price": 100
+        },
+        {
+          "type": "VIP",
+          "quantity": 100,
+          "price": 250
+        }
+      ],
+      "description": "Ring in the New Year with a luxurious gala featuring dinner, dancing, and fireworks."
+    }
+  ]
+}

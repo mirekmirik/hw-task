@@ -1,0 +1,14 @@
+.event {
+    background-color: var(--color-orange);
+    padding: 16px;
+    border-radius: 12px;
+    height: 100%;
+
+    &__description {
+        margin-bottom: 24px;
+    }
+
+    &__tickets {
+        margin-bottom: 24px;
+    }
+}

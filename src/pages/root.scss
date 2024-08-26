@@ -1,0 +1,16 @@
+.root {
+  &__header {
+    margin-bottom: 24px;
+  }
+  &__main {
+    padding-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .root {
+    &__main {
+      padding: 8px;
+    }
+  }
+}

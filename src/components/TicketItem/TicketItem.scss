@@ -1,0 +1,10 @@
+.ticket-item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+
+    &__price {
+        color: rgb(101, 205, 101);
+        font-weight: 700;
+    }
+}

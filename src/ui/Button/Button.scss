@@ -1,0 +1,36 @@
+.button {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  border-radius: 32px;
+  padding: 4px 8px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+
+  &:hover {
+    transition: 0.2s;
+    opacity: 0.6;
+  }
+
+  &--disabled {
+    background-color: var(--color-sand);
+  }
+
+  &--submit {
+    background-color: var(--color-green);
+  }
+
+  &--reset {
+    background-color: var(--color-red);
+  }
+
+  &--button {
+    background-color: var(--color-blue);
+  }
+
+  &--danger {
+    background-color: var(--color-red);
+  }
+}

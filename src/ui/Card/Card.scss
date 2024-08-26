@@ -1,0 +1,31 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 12px;
+
+  &--violet {
+    background-color: var(--color-violet);
+  }
+  &--black {
+    background-color: var(--color-black);
+  }
+  &--blue {
+    background-color: var(--color-blue);
+  }
+  &--red {
+    background-color: var(--color-red);
+  }
+  &--green {
+    background-color: var(--color-green);
+  }
+  &--orange {
+    background-color: var(--color-orange);
+  }
+
+  &--clickable {
+    cursor: pointer;
+  }
+}
