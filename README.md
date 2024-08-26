@@ -1,5 +1,5 @@
-SERVER FILTER BY DATE
-SERVER SORT BY NAME, DATE. (asc, desc) (can be sort by any key-value)
+server filter by date
+server sort by name, date. (asc, desc) (can be sort by any value)
 
 FOR INSTALL APP: 
 1. ### `git clone https://github.com/mirekmirik/hw-test-task.git`
@@ -7,5 +7,5 @@ FOR INSTALL APP:
 3. ### `npm install`
 4. ### `npm run start`
 
-YOU SHOULD RUN JSON-SERVER WITH PORT 5000: OPEN NEW TERMINAL AND PASTE THIS:
+you should run json-server with PORT 5000: open new terminal and paste this:
 1. ### `npx json-server db.json --port 5000`
